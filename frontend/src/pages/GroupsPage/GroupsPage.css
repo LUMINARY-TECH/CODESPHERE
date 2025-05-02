@@ -1,0 +1,231 @@
+/* groupsbox-top stylings */
+.groupsbox-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.groupsbox-top-left h1{
+    color: var(--white000);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.groupsbox-top-left p{
+    color: var(--border);
+    font-size: 18px;
+    margin-top: 10px;
+}
+.groupsbox-top a{
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--electric);
+    color: var(--white000);
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.groupsbox-top a:hover{
+    opacity: 0.8;
+}
+.groupsbox-middle{
+    width: 100%;
+    background-color: var(--dark800);
+    border: 1px solid var(--border02);
+    border-radius: 7px;
+    padding: 20px;
+}
+.groupsbox-middle-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.groupsbox-middle-top form{
+    width: 70%;
+    position: relative;
+}
+.groupsbox-middle-top form span{
+    color: var(--border);
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.groupsbox-middle-top select,
+.groupsbox-middle-top form input{
+    width: 100%;
+    background-color: var(--dark700);
+    border: 1px solid var(--border02);
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--white000);
+}
+.groupsbox-middle-top form input::placeholder{
+    color: var(--border);
+}
+.groupsbox-middle-top select:focus,
+.groupsbox-middle-top form input:focus{
+    outline: none;
+    border: 1px solid var(--electric);
+}
+.groupsbox-middle-top select{
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.groupsbox-middle-bottom{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+}
+.groupsbox-middle-bottom button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:7px 10px;
+    background-color: var(--dark700);
+    border:1px solid var(--border02);
+    font-family: sans-serif;
+    color: var(--white000);
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.groupsbox-middle-bottom .react i{
+    color: var(--cyan00)
+}
+.groupsbox-middle-bottom .python i{
+    color: var(--green0);
+
+}
+.groupsbox-middle-bottom .artificial i{
+    color: var(--purple);
+}
+.groupsbox-middle-bottom .devops i{
+    color: var(--yellow);
+}.groupsbox-middle-bottom .security i{
+    color: var(--red000);
+}
+
+.groupsbox-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px 0;
+}
+
+
+
+@media (max-width:767px){
+    .groupsbox-container{
+        grid-template-columns: 1fr;
+    }
+    /* groups stylings */
+    .groupsbox-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+    .groupsbox-top-left{
+        width: 100%;
+    }
+    .groupsbox-top-left h1{
+        font-size: 24px;
+    }
+    .groupsbox-top-left p{
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .groupsbox-top a{
+        font-size: 18px;
+        width: 60%;
+        padding:10px 5px;
+    }
+    .groupsbox-middle{
+        padding: 10px;
+    }
+    .groupsbox-middle-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .groupsbox-middle-top select,
+    .groupsbox-middle-top form{
+        width: 100%;
+    }
+    .groupsbox-middle-top form input{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .groupsbox-middle-top select{
+        padding: 10px;
+        font-size: 16px;
+    }
+    .groupsbox-middle-bottom{
+        flex-wrap: wrap;
+    }
+    .groupsbox-middle-bottom button{
+        font-size: 12px;
+    }
+    .groupsbox-container{
+        grid-template-columns: 1fr;
+    }
+    .groupsbox-div{
+        height: auto;
+    }
+    .groupsbox-div-top-left img{
+        width: 40px;
+        height:40px ;
+        object-fit: contain;
+    }
+    .groupsbox-div-top-left h2{
+        font-size: 18px;
+    }
+    .groupsbox-div-top-right div{
+        font-size: 12px;
+    }
+    .groupsbox-div-contents p{
+        font-size: 14px;
+    }
+    .groupsbox-div-members-left .common-div{
+        width: 30px;
+        height: 30px;
+    }
+    .common-mem2{
+        left: 20px;
+    }
+    .common-mem3{
+        left: 40px;
+    }
+    .common-mem4{
+        left: 60px;
+        font-size: 10px;
+    }
+    .groupsbox-div-members a{
+        font-size: 14px;
+    }
+    .groupsbox-div-actions{
+        padding: 10px 20px;
+    }
+    .paginators-div span,
+    .paginators-div button{
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+}

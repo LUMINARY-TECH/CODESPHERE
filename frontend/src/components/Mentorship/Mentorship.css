@@ -1,0 +1,23 @@
+.user-profile-mentorship{
+    width: 100%;
+    border-radius: 7px;
+    background-color: var(--dark800);
+    padding: 20px;
+}
+.user-profile-mentorship h1{
+    color: var(--white000);
+    font-size: 20px;
+}
+.user-profile-mentorship p{
+    color: var(--border);
+    margin: 10px 0;
+}
+.user-profile-mentorship a{
+    color: var(--white000);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: var(--electric);
+    padding: 15px;
+    border-radius: inherit;
+}

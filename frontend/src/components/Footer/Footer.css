@@ -1,0 +1,81 @@
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: var(--dark900);
+    background-color: black;
+    padding: 50px 0;
+}
+.footerbox{
+    width: 85%;
+    margin: 0 auto;
+}
+.footercontainer{
+    width: 100%;
+    display: flex;
+    align-items:top ;
+    justify-content:space-between;
+
+}
+.toplink{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+}
+.toplink img{
+    width: 100px;
+}
+.toplink h1{
+    color: var(--white000);
+    font-family: sans-serif;
+}
+.footerlinks p{
+    color: var(--border);
+    font-size: 18px;
+}
+.footerlinks .socials{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+    margin: 20px 0;
+}
+.footerlinks .socials a i{
+    font-size: 20px;
+    color: var(--border);
+}
+.footerlinks h1{
+    color: var(--white000);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.footerlinks a{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: var(--border);
+}
+.footerbottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footerbottom p{
+    color: var(--border);
+}
+.footerbottom a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: var(--border);
+}
+footer a{
+    transition: .5s;
+}
+footer a:hover{
+    color: var(--white000);
+}
+

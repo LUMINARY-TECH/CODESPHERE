@@ -1,0 +1,41 @@
+.recommended-group-box a{
+    display: block;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: var(--dark800);
+    border: 1px solid var(--border02);
+    transition: .3s;
+}
+.recommended-group-box a:hover{
+    border: 0.2px solid var(--electric);
+}
+.recommended-group-box a .recommended-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    font-size: 20px;
+    color: var(--white000);
+}
+.recommended-group-box a .recommended-top img{
+    width: 60px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 7px;
+}
+.recommended-group-box a p{
+    color: var(--border);
+    margin-top: 5px;
+}
+
+
+
+@media (max-width:767px){
+    /* user groups stylings */
+    .recommended-group-box a .recommended-top img{
+        width: 50px;
+        height: 45px;
+    }
+}

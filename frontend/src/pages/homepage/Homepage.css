@@ -1,0 +1,113 @@
+.posts-section .posts-section-top{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.posts-section-top h1{
+    color: var(--white000);
+    font-family: sans-serif;
+}
+.posts-filter{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+.posts-filter button{
+    background-color: transparent;
+    color: var(--border);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.posts-filter button:hover{
+    color: var(--electric);
+}
+.posts-section-container{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+@media (max-width:1024px){
+    .posts-section-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* mobile responsiveness */
+@media (max-width: 767px){
+    /* featuredgroups */
+    .featured-top h1{
+        font-size: 16px;
+    }
+    .featured-top a{
+        font-size: 16px;
+    }
+    .featuredGroups{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .featuredGroups a{
+        padding: 20px 0;
+    }
+    .featuredGroups a h2{font-size: 16px;}
+    .featuredGroups a p{
+        font-size: 12px;
+    }
+    
+    /* posts section stylings */
+    .posts-container{
+        height: auto;
+        max-height: unset;
+        min-height: unset;
+    }
+    .posts-actions{
+        position: unset;
+    }
+    .posts-section-top h1{
+        font-size: 20px;
+    }
+    .posts-filter button:hover{
+        color: var(--electric);
+    }
+    .posts-section-container{
+        grid-template-columns: 1fr;
+        grid-gap:20px;
+    }
+  
+    .posts-container:hover{
+        border: 1px solid var(--border);
+        transform: translateY(0%);
+    }
+    .posts-container-top .post-owner h2{
+        color: var(--white000);
+        font-size: 20px;
+    }
+    .posts-container-top p{
+        color: var(--border);
+    }
+  
+    .postscontent{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .postscontent a h2{
+        color: var(--white000);
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .postscontent p{
+        color: var(--border);
+        margin-top: 5px;
+        font-size: 16px;
+    }
+  
+  
+  
+  }

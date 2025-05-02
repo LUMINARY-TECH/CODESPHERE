@@ -1,0 +1,129 @@
+.group-container{
+    transition: .2s;
+    border: 1px solid var(--border02);
+    border-width: 0.05px;
+    border-radius: 5px;
+    background-color: var(--dark800);
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    max-height: 280px;
+}
+.group-container:hover{
+    transform: translateY(-5px);
+}
+.group-container-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.group-container-top .group-container-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.group-container-top .group-container-left img{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+.group-container-top .group-container-left h1{
+    color: var(--white000);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.group-container-right .group-owner{
+    background-color: var(--dark700);
+    padding:5px 10px;
+    border-radius: 50px;
+    border: 1px solid var(--electric);
+    color: var(--electric);
+}
+.group-container-right .group-admin{
+    background-color: var(--dark700);
+    padding:5px 10px;
+    border-radius: 50px;
+    border: 1px solid var(--purple);
+    color: var(--purple);
+}
+.group-container-right .group-mem{
+    background-color: var(--dark700);
+    padding:5px 10px;
+    border-radius: 50px;
+    border: 1px solid var(--border);
+    color: var(--border);
+}
+.group-container-contents{
+    width: 100%;
+    flex-grow: 1;
+    padding: 20px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.group-container-contents p{
+    color: var(--border);
+    font-size: 18px;
+    flex-grow: 1;
+}
+.group-container-members{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.members-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+.members-container .member{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--dark700);
+    position: absolute;
+}
+.member img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.member2{
+    left: 30px;
+}
+.member3{
+    left: 60px;
+}
+.member4{
+    left: 90px;
+    color: var(--white000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group-action a{
+    color: var(--electric);
+    text-decoration: none;
+    font-size: 18px;
+}
+.group-container-stats{
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid var(--border02);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--dark700);
+    color: var(--border);
+}

@@ -1,0 +1,57 @@
+.user-profile-about{
+    width: 100%;
+    background-color: var(--dark800);
+    border-radius: 7px;
+    padding: 20px;
+}
+.user-profile-about h1{
+    color: var(--white000);
+    margin-bottom: 15px;
+}
+.user-profile-about p{
+    color: var(--border);
+}
+.user-profile-about .user-skills{
+    margin-top: 15px;
+}
+.user-skills h2{
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--white000);
+}
+.skills-box{
+    margin: 10px 0;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.skills-box span{
+    background-color: var(--dark700);
+    color: var(--white001);
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.user-socials{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-socials a{
+    text-decoration: none;
+    transition: .3s;
+    color: var(--electric);
+}
+.user-socials a:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width:767px){
+    
+}

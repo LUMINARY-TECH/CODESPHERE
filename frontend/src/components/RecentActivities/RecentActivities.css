@@ -1,0 +1,57 @@
+.recent-activity{
+    width: 100%;
+    border-radius: 7px;
+    background-color: var(--dark800);
+    padding: 20px;
+}
+.recent-activity h1{
+    color: var(--white000);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.activity-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.activity-container{
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    gap: 10px;
+}
+.activity-left img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.activity-right p{
+    color: var(--border);
+    font-size: 14px;
+}
+.activity-right p span{
+    color: var(--white000);
+    margin-right: 5px;
+}
+.activity-right p strong{
+    color: var(--electric);
+    font-size: 12px;
+}
+.activity-right h4{
+    font-size: 10px;
+    color: var(--border);
+}
+.activity-comment{
+    background-color: var(--dark700);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.activity-comment p{
+    font-size: 12px;
+}

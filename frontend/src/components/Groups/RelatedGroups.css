@@ -1,0 +1,196 @@
+.related{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+.related img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.related-details h2{
+    color: var(--white001);
+    font-size: 16px;
+}
+.related-details p{
+    color: var(--border);
+    font-size: 13px;
+}
+.related a{
+    text-decoration: none;
+    color: var(--electric);
+    font-size: 14px;
+}
+
+
+@media (max-width:767px){
+    /* groupd details page stylings */
+    .groupdetailstop{
+        width: 100%;
+    }
+    .groupdetailstop-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .group-details-top-left{
+        width: 100%;
+        padding: 10px;
+    }
+    .group-details-top-left-top{
+        width: 100%;
+        display: flex;
+        align-items:flex-start;
+        justify-content: left;
+        gap: 10px;
+    }
+  
+    .group-details-image img{
+        width: 100px;
+    }
+    .group-name-details h1{
+        font-size: 18px;
+        line-height: unset;
+    }
+    .group-name-details p{
+        font-size: 12px;
+    }
+    .group-name-details h2{
+        font-size: 14px;
+    }
+    .group-name-details .about{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .group-details-top-left-stats h2{
+        font-size: 12px;
+    }
+    .group-details-top-left-stats{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .group-details-top-left-stats .group-details-stat{
+        padding: 5px;
+    }
+    .group-admins{
+        padding: 5px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .adminbox{
+        padding: 5px;
+        gap: 5px;
+        width: auto;
+    }
+    .admin-details-container{
+        display: none;
+    }
+    .admin-image img{
+        width: 25px;
+        height: 25px;
+    }
+    .admin-details-name h2{
+        font-size: 12px;
+    }
+    .admin-details-name p{
+        display: inline-block;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+
+
+    .group-details-top-right{
+        width: 100%;
+        padding: 5px;
+    }
+    .related-group-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+        column-gap: 10px;
+    }
+    .related{
+        margin-bottom: 0;
+    }
+    .related img{
+        width: 30px;
+        height: 30px;
+    }
+    .related-details h2{
+        color: var(--white001);
+        font-size: 14px;
+    }
+    .related-details p{
+        color: var(--border);
+        font-size: 11px;
+    }
+    .related a{
+        text-decoration: none;
+        color: var(--electric);
+        font-size: 12px;
+    }
+    .group-details-top-right-bottom{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .group-post{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .group-settings a{
+        gap: 5px;
+        padding: 10px;
+    }
+    .group-details-nav-links-top a.active{
+        color: var(--electric);
+    }
+
+    .group-details-nav-links{
+        padding: 10px;
+    }
+    .group-details-nav-links-top{
+        gap: 20px;
+        justify-content: space-between;
+       
+    }
+    .group-details-nav-links-top a{
+        text-align: left;
+        font-size: 14px;
+    }
+    .group-details-nav-links-indicator{
+        display: none;
+    }
+
+
+
+    .group-details-nav-links-bottom{
+        border-radius: 4px;
+        padding: 10px;
+    }
+    .group-details-nav-links-bottom-left img{
+        width: 40px;
+        height: 40px;
+    }
+    .group-details-nav-links-bottom-right{
+        width: 85%;
+    }
+    .group-details-nav-links-bottom-right input{
+        border-radius: 3px;
+    }
+    .group-details-nav-links-bottom-type button{
+        font-size: 14px;
+        gap: 5px;
+    }
+}

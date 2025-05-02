@@ -1,0 +1,144 @@
+.settings-top h2{
+    color: var(--white000);
+    font-size: 25px;
+}
+.settings-container{
+    width: 100%;
+    margin-top: 10px;
+}
+.user-details-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.user-details-div p{
+    color: var(--border);
+}
+.user-details-div .about-user,
+.user-details-div h2{
+    color: var(--whitesmoke);
+    font-weight: 100;
+    font-size: 14px;
+    border: 1px solid var(--border02);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+.user-details-div ul{
+    border: 1px solid var(--border02);
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user-details-div ul li{
+    color: var(--whitesmoke);
+    font-size: 14px;
+   
+}
+.user-details-div .verified-badge{
+    color: var(--green0);
+    margin-top: 10px;
+}
+.profile-visibility{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    color: var(--white001);
+}
+.settings-update{
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.settings-update a{
+    color: var(--white000);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: var(--electric);
+    border-radius: 3px;
+}
+.danger{
+    width: 100%;
+    padding: 20px 0;
+}
+.danger h3{
+    color: var(--red000);
+    font-size: 25px;
+}
+
+.dangers-type{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.danger-zone{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(243, 159, 159);
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+.danger-zone h2{
+    font-size: 17px;
+}
+.danger-zone a{
+    text-decoration: none;
+    background-color: red;
+    padding: 13px;
+    border-radius: 5px;
+    color: var(--white000);
+    transition: .5s;
+}
+.danger-zone .deactivate{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+}
+.danger-zone .deactivate:hover{
+    background-color: red;
+    color: var(--white000);
+}
+.danger-zone .delete:hover{
+    background-color: rgb(128, 0, 0);
+}
+
+
+
+@media (max-width:767px){
+    .user-details-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 15px;
+    }
+    .profile-visibility{
+        padding: 0 0 20px 0;
+    }
+    .danger h3{
+        color: var(--red000);
+        font-size: 18px;
+    }
+    .danger-zone{
+        padding: 5px;
+    }
+    .danger-zone h2{
+        font-size: 12px;
+        width: 50%;
+    }
+    .danger-zone a{
+        font-size: 12px;
+    }
+}

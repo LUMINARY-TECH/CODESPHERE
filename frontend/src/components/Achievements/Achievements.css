@@ -1,0 +1,45 @@
+.achievements{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--dark800);
+    border-radius: 7px;
+}
+.achievements h1{
+    color: var(--white000);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.achievement-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.achievement{
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    gap: 10px;
+}
+.achievement .trophy{
+    color: var(--yellow);
+}
+.achievement .certificate{
+    color: var(--purple);
+}
+.achievement-right p{
+    color: var(--white001);
+    font-size: 14px;
+}
+.achievement-right h4{
+    color: var(--border);
+    font-size: 14px;
+    font-weight: 100;
+}
+.achievements a{
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: var(--electric);
+}
